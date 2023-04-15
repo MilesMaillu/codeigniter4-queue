@@ -32,7 +32,7 @@ add ` $this->queue = service('queue');` on function initController
 // E.g.:
 // $this->session = \Config\Services::session();
 
- $this->queue = service('queue');;
+ $this->queue = service('queue');
 ```
 ## Usage
 
